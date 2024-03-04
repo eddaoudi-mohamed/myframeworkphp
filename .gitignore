@@ -1,1 +1,3 @@
 vendor
+mysql_data
+.gitignore

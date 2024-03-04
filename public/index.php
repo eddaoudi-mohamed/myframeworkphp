@@ -18,7 +18,7 @@ $config = [
         'password'=> $_ENV['DB_PASSWORD'] 
     ]
 ] ; 
-echo $_ENV['DB_DSN'] ; 
+// echo $_ENV['DB_DSN'] ; 
 $app = new Application(dirname(__DIR__) , $config) ; 
 $app->router->get('/' , [SiteController::class , "index"]) ; 
 
